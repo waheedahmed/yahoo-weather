@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,4 +35,35 @@
   100% {
     transform: translateY(0px)
   }
+}
+
+body {
+  background-color: lightgray;
+}
+
+.get-forcast-container input {
+  margin-right: 10px;
+  width: 200px;
+}
+
+h2 {
+  color: purple;
+}
+
+.header-lablel {
+  color: blue;
+}
+
+.forecast-list {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+}
+
+.forecast-item .high {
+  color: red;
+}
+
+.forecast-item .low {
+  color: green;
 }
